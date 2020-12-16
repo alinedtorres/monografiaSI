@@ -24,16 +24,16 @@ Conforme gráfico acima, extraído do estudo de Alberto Bacchelli e  Christian B
 
 ## Recomendações
 
-Baseado no trabalho produzido por Doctor McKayla, 10 Tips for Respectful and Constructive Code Review Feedback [2] e após um estudo de 624 comentários de 120 pull requests, sendo 259 comentários de code review, foram criadas as recomendações abaixo para um Code Review com respeito e que agrega valor.
+Baseado no trabalho produzido por Doctor McKayla, 10 Tips for Respectful and Constructive Code Review Feedback [2] e após um estudo de 624 comentários de 120 pull requests do GitHub, sendo 259 comentários de code review, foram criadas as recomendações abaixo para um Code Review com respeito e que agrega valor.
 
 ### 1 - Fornecer Orientação
 
-Ao realizar uma revisão de código, é extremamente importante explicar e dar orientações de como o programador pode melhorar o código de acordo com as sugestões.
+Ao realizar uma revisão de código, é extremamente importante explicar e dar orientações de como o programador pode melhorar o código de acordo com as sugestões. Disponibilizar documentações ou até mesmo trechos de códigos para auxiliar o programador pode fazer a diferença em um comentárioo.
 
 
 ### 2 - Agregar valor para o autor do código
 
-Pensar no autor do código e identificar como agregar valor na revisão baseado no autor.
+Pensar no autor do código e identificar como agregar valor na revisão baseado no autor. 
 
 
 ### 3 - Mostrar Evidências
@@ -43,4 +43,86 @@ Se possível, mostrar evidências de que sua sugestão está correta, exibindo d
 >_"to specify volume id instead of volume name, because the id is UUID and safe to be specified. cinder delete allows id as https://docs.openstack.org/python-cinderclient/latest/cli/details.html#cinder-delete"_
 
 No comentário acima o revisor colocou o link da documentação justificando sua sugestão.
+
+
+### 4 - Ser o mais claro possível
+
+Escreva o comentário com cuidado para que ele não possa ser interpretado de várias formas diferentes, como no exemplo abaixo.
+
+> _"I doubt there would be any data in showOutPut in case of error?"_
+
+> _"What I notice in your (OpenShift) env is that cinder delete failed with 
+> Invalid volume: Volume status must be available or error or [...]
+> And cinder show showed the volume is in some bad state."_
+
+> _"Sorry. re-reading your comment again, if cinder show returns error, it probably won't show volume status, stil, showing something like Invalid Filters all_tenants, name are found in query options. (HTTP 400) is still more useful than plain exist status 1"_
+
+
+### 5 - Realizar perguntas e não fazer exigências
+
+As perguntas abrem a mente do programador. Com perguntas, você está abrindo um diálogo.
+
+
+### 6 - Os comentários também podem ser positivos
+
+Faça comentários positivos sobre as alterações, esses comentários também agregam valor e motivam o autor.
+
+
+### 7 - Não assumir que o autor fez algo intencionalmente errado
+
+Tenha cuidado para que o comentário não seja uma acusação ao autor do código, supondo que o erro foi intencional.
+
+
+### 8 - O feedback deve ser sobre o código
+
+O feedback deve ser sobre o código, e não refletir sobre o autor do código.
+
+
+### 9 - Não utilizar ironia ou sarcasmo
+
+Sarcasmo ou ironia são difíceis de identificar na linguagem escrita.
+
+
+### 10 - Não utilizar palavras ofensivas
+
+Evite palavras que possam ofender o autor.
+
+
+### 11 - O seu ponto de vista também pode estar errado
+
+O feedback não é uma declaração universal da verdade, e sim uma observação da sua perspectiva.
+
+
+### 12 - Questionar suas dúvidas
+
+Caso tenha dúvidas sobre alguma alteração, faça perguntas  e questione o autor. Muitas vezes uma simples pergunta pode mudar o pensamento do programador, evitando alguns erros no código.
+
+
+### 13 - Usar emoji
+
+Os emojis auxiliam a entender o sentido da frase que foi colocada.
+
+
+### 14 - Explicar seu ponto de vista
+
+Explicar a sua sugestão e o porque você pensa dessa forma.
+
+
+### 15 - Deixar claro seus questionamentos
+
+Caso tenha dúvida em uma sugestão, deixe claro sua dúvida, para que outros revisores possam opinar e iniciar um diálogo sobre o assunto.
+
+
+## Conclusão
+
+Concluindo, revisões de código modernas fornecem benefícios além de encontrar defeitos. A revisão do código pode ser usada para melhorar o estilo de código, encontrar soluções alternativas, aumentar o aprendizado, compartilhar propriedade do código, etc. Isso deve orientar as políticas de revisão de código.
+
+60% dos defeitos podem ser encontrados na revisão de código. Revisão de código é uma boa ferramenta para identificar defeitos relacionados à evolutibilidade do código que não são identificáveis na fase de testes.
+
+A revisão do código tem sido uma parte necessária do desenvolvimento de software, tornando-se cada vez mais importante o aprendizado sobre o assunto.
+
+
+## Referências
+
+
 
