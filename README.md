@@ -17,7 +17,7 @@ Em 2013, Alberto Bacchelli e  Christian Bird realizaram um estudo de Code Review
 
 Existem várias motivações para revisão de código. No geral, as entrevistas revelaram que encontrar defeitos, embora proeminentes, é apenas uma das muitas motivações que levam os desenvolvedores a executar o code review. Especialmente quando reforçado por uma forte cultura de equipe em torno das revisões, os desenvolvedores percebem as revisões de código como uma atividade que tem múltiplas influências benéficas não apenas no código, mas também para a equipe e todo o processo de desenvolvimento. 
 
-!Comentários em cada categoria - Aqui  vem uma imagem
+[![comentarios-Em-Categoria.png](https://i.postimg.cc/h4LbRFfM/comentarios-Em-Categoria.png)](https://postimg.cc/HjL7bh07)
 
 Conforme gráfico acima, extraído do estudo de Alberto Bacchelli e  Christian Bird, analisando os resultados dos comentários avaliados, melhoria de código é a categoria mais frequente, com maior quantidade de comentários. Embora a descoberta de defeitos seja a principal motivação, é apenas a quarta categoria mais frequente nos resultados. 
 
