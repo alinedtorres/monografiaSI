@@ -40,7 +40,7 @@ Pensar no autor do código e identificar como agregar valor na revisão baseado 
 
 Se possível, mostrar evidências de que sua sugestão está correta, exibindo documentações ou testes.
 
-[![comentarios-Em-Categoria.png](https://i.postimg.cc/jnPHVYPn/Recomenda-o-3.png)](https://postimg.cc/jnPHVYPn)
+[![Recomenda-o-3-red.png](https://i.postimg.cc/nr8wRVxL/Recomenda-o-3-red.png)](https://postimg.cc/G8QQ9CH0)
 
 No comentário acima o revisor colocou o link da documentação justificando sua sugestão.
 
@@ -49,14 +49,7 @@ No comentário acima o revisor colocou o link da documentação justificando sua
 
 Escreva o comentário com cuidado para que ele não possa ser interpretado de várias formas diferentes, como no exemplo abaixo.
 
-> _"I doubt there would be any data in showOutPut in case of error?"_
-
-> _"What I notice in your (OpenShift) env is that cinder delete failed with 
-> Invalid volume: Volume status must be available or error or [...]
-> And cinder show showed the volume is in some bad state."_
-
-> _"Sorry. re-reading your comment again, if cinder show returns error, it probably won't show volume status, stil, showing something like Invalid Filters all_tenants, name are found in query options. (HTTP 400) is still more useful than plain exist status 1"_
-
+[![Recomenda-o-4-red.png](https://i.postimg.cc/Mpr53Zb8/Recomenda-o-4-red.png)](https://postimg.cc/fVmYJNrH)
 
 ### 5 - Realizar perguntas e não fazer exigências
 
