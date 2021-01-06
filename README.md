@@ -40,7 +40,7 @@ Pensar no autor do código e identificar como agregar valor na revisão baseado 
 
 Se possível, mostrar evidências de que sua sugestão está correta, exibindo documentações ou testes.
 
->_"to specify volume id instead of volume name, because the id is UUID and safe to be specified. cinder delete allows id as https://docs.openstack.org/python-cinderclient/latest/cli/details.html#cinder-delete"_
+[![comentarios-Em-Categoria.png](https://i.postimg.cc/jnPHVYPn/Recomenda-o-3.png)](https://postimg.cc/jnPHVYPn)
 
 No comentário acima o revisor colocou o link da documentação justificando sua sugestão.
 
