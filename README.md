@@ -24,19 +24,59 @@ Conforme gráfico acima, extraído do estudo de Alberto Bacchelli e  Christian B
 
 ## Recomendações
 
-Baseado no trabalho produzido por Doctor McKayla, 10 Tips for Respectful and Constructive Code Review Feedback [2] e após um estudo de 624 comentários de 120 pull requests do GitHub, sendo 259 comentários de code review, foram criadas as recomendações abaixo para um Code Review com respeito e que agrega valor.
+Após um estudo de 624 comentários de 120 pull requests do GitHub, sendo 259 comentários de code review, foram criadas as recomendações abaixo para um Code Review com respeito e que agrega valor. As recomendações de 1 a 10 foram inspiradas no artigo How to Give Respectful and Constructive Code Review Feedback, de autoria de Michaela Greiler [2].
 
 ### 1 - Fornecer Orientação
 
-Ao realizar uma revisão de código, é extremamente importante explicar e dar orientações de como o programador pode melhorar o código de acordo com as sugestões. Disponibilizar documentações ou até mesmo trechos de códigos para auxiliar o programador pode fazer a diferença em um comentárioo.
+Ao realizar uma revisão de código, é extremamente importante explicar e dar orientações de como o programador pode melhorar o código de acordo com as sugestões. Disponibilizar documentações ou até mesmo trechos de códigos para auxiliar o programador pode fazer a diferença em um comentário.
 
 
 ### 2 - Agregar valor para o autor do código
 
-Pensar no autor do código e identificar como agregar valor na revisão baseado no autor. 
+Pensar no autor do código e identificar como agregar valor na revisão baseado no autor.
 
 
-### 3 - Mostrar Evidências
+### 3 - Realizar perguntas e não fazer exigências
+
+As perguntas abrem a mente do programador. Com perguntas, você está abrindo um diálogo.
+
+
+### 4 - Não assumir que o autor fez algo intencionalmente errado
+
+Tenha cuidado para que o comentário não seja uma acusação ao autor do código, supondo que o erro foi intencional.
+
+
+### 5 - O feedback deve ser sobre o código
+
+O feedback deve ser sobre o código, e não refletir sobre o autor do código.
+
+
+### 6 - Não utilizar ironia ou sarcasmo
+
+Sarcasmo ou ironia são difíceis de identificar na linguagem escrita.
+
+
+### 7 - Não utilizar palavras ofensivas
+
+Evite palavras que possam ofender o autor.
+
+
+### 8 - O seu ponto de vista também pode estar errado
+
+O feedback não é uma declaração universal da verdade, e sim uma observação da sua perspectiva.
+
+
+### 9 - Usar emoji
+
+Os emojis auxiliam a entender o sentido da frase que foi colocada.
+
+
+### 10 - Explicar seu ponto de vista
+
+Explicar a sua sugestão e o porque você pensa dessa forma.
+
+
+### 11 - Mostrar Evidências
 
 Se possível, mostrar evidências de que sua sugestão está correta, exibindo documentações ou testes.
 
@@ -45,60 +85,21 @@ Se possível, mostrar evidências de que sua sugestão está correta, exibindo d
 No comentário acima o revisor colocou o link da documentação justificando sua sugestão.
 
 
-### 4 - Ser o mais claro possível
+### 12 - Ser o mais claro possível
 
 Escreva o comentário com cuidado para que ele não possa ser interpretado de várias formas diferentes, como no exemplo abaixo.
 
 [![Recomenda-o-4-red.png](https://i.postimg.cc/Mpr53Zb8/Recomenda-o-4-red.png)](https://postimg.cc/fVmYJNrH)
 
-### 5 - Realizar perguntas e não fazer exigências
 
-As perguntas abrem a mente do programador. Com perguntas, você está abrindo um diálogo.
-
-
-### 6 - Os comentários também podem ser positivos
+### 13 - Os comentários também podem ser positivos
 
 Faça comentários positivos sobre as alterações, esses comentários também agregam valor e motivam o autor.
 
 
-### 7 - Não assumir que o autor fez algo intencionalmente errado
-
-Tenha cuidado para que o comentário não seja uma acusação ao autor do código, supondo que o erro foi intencional.
-
-
-### 8 - O feedback deve ser sobre o código
-
-O feedback deve ser sobre o código, e não refletir sobre o autor do código.
-
-
-### 9 - Não utilizar ironia ou sarcasmo
-
-Sarcasmo ou ironia são difíceis de identificar na linguagem escrita.
-
-
-### 10 - Não utilizar palavras ofensivas
-
-Evite palavras que possam ofender o autor.
-
-
-### 11 - O seu ponto de vista também pode estar errado
-
-O feedback não é uma declaração universal da verdade, e sim uma observação da sua perspectiva.
-
-
-### 12 - Questionar suas dúvidas
+### 14 - Questionar suas dúvidas
 
 Caso tenha dúvidas sobre alguma alteração, faça perguntas  e questione o autor. Muitas vezes uma simples pergunta pode mudar o pensamento do programador, evitando alguns erros no código.
-
-
-### 13 - Usar emoji
-
-Os emojis auxiliam a entender o sentido da frase que foi colocada.
-
-
-### 14 - Explicar seu ponto de vista
-
-Explicar a sua sugestão e o porque você pensa dessa forma.
 
 
 ### 15 - Deixar claro seus questionamentos
