@@ -13,7 +13,7 @@ A revisão de código possui dois propósitos. Melhorar o código, ou seja, enco
 
 ## Trabalhos Relacionados
 
-Em 2013, Alberto Bacchelli e  Christian Bird realizaram um estudo de Code Review através de uma pesquisa com desenvolvedores, testadores e gerentes da Microsoft [1](https://dl.acm.org/doi/10.5555/2486788.2486882). O objetivo foi descobrir o que os desenvolvedores e gerentes esperam da revisão de código, como as revisões são realizadas na prática e quais os resultados reais e desafios.
+Em 2013, Alberto Bacchelli e  Christian Bird realizaram um estudo de Code Review através de uma pesquisa com desenvolvedores, testadores e gerentes da Microsoft [[1]](https://dl.acm.org/doi/10.5555/2486788.2486882). O objetivo foi descobrir o que os desenvolvedores e gerentes esperam da revisão de código, como as revisões são realizadas na prática e quais os resultados reais e desafios.
 
 Existem várias motivações para revisão de código. No geral, as entrevistas revelaram que encontrar defeitos, embora proeminentes, é apenas uma das muitas motivações que levam os desenvolvedores a executar o code review. Especialmente quando reforçado por uma forte cultura de equipe em torno das revisões, os desenvolvedores percebem as revisões de código como uma atividade que tem múltiplas influências benéficas não apenas no código, mas também para a equipe e todo o processo de desenvolvimento. 
 
@@ -24,7 +24,7 @@ Conforme gráfico acima, extraído do estudo de Alberto Bacchelli e  Christian B
 
 ## Recomendações
 
-Após um estudo de 624 comentários de 120 pull requests do GitHub, sendo 259 comentários de code review, foram criadas as recomendações abaixo para um Code Review com respeito e que agrega valor. As recomendações de 1 a 10 foram inspiradas no artigo How to Give Respectful and Constructive Code Review Feedback, de autoria de Michaela Greiler [2](https://www.michaelagreiler.com/respectful-constructive-code-review-feedback/).
+Após um estudo de 624 comentários de 120 pull requests do GitHub, sendo 259 comentários de code review, foram criadas as recomendações abaixo para um Code Review com respeito e que agrega valor. As recomendações de 1 a 10 foram inspiradas no artigo How to Give Respectful and Constructive Code Review Feedback, de autoria de Michaela Greiler [[2]](https://www.michaelagreiler.com/respectful-constructive-code-review-feedback/).
 
 
 ### 1 - Fornecer Orientação
