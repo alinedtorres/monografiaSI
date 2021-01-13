@@ -65,6 +65,8 @@ Evite palavras que possam ofender o autor.
 
 O feedback não é uma declaração universal da verdade, e sim uma observação da sua perspectiva.
 
+[![Recomendacao8](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2011.png)
+
 
 ### 9 - Usar emoji
 
