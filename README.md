@@ -40,10 +40,14 @@ Pensar no autor do código e identificar como agregar valor na revisão baseado 
 
 As perguntas abrem a mente do programador. Com perguntas, você está abrindo um diálogo.
 
+![Recomendacao5](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%205.png)
+
 
 ### 4 - Não assumir que o autor fez algo intencionalmente errado
 
 Tenha cuidado para que o comentário não seja uma acusação ao autor do código, supondo que o erro foi intencional.
+
+![Recomendacao4](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%207.png)
 
 
 ### 5 - O feedback deve ser sobre o código
@@ -65,24 +69,31 @@ Evite palavras que possam ofender o autor.
 
 O feedback não é uma declaração universal da verdade, e sim uma observação da sua perspectiva.
 
-[![Recomendacao8](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2011.png)
+![Recomendacao8](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2011.png)
 
 
 ### 9 - Usar emoji
 
 Os emojis auxiliam a entender o sentido da frase que foi colocada.
 
+![Recomendacao9a](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2013a.png)
+
+![Recomendacao9b](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2013b.png)
+
 
 ### 10 - Explicar seu ponto de vista
 
 Explicar a sua sugestão e o porque você pensa dessa forma.
+
+![Recomendacao10a](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2014a.png)
+![Recomendacao10b](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2014b.png)
 
 
 ### 11 - Mostrar Evidências
 
 Se possível, mostrar evidências de que sua sugestão está correta, exibindo documentações ou testes.
 
-[![Recomenda-o-3-red.png](https://i.postimg.cc/nr8wRVxL/Recomenda-o-3-red.png)](https://postimg.cc/G8QQ9CH0)
+![Recomenda-o-3-red.png](https://i.postimg.cc/nr8wRVxL/Recomenda-o-3-red.png)
 
 No comentário acima o revisor colocou o link da documentação justificando sua sugestão.
 
@@ -91,22 +102,27 @@ No comentário acima o revisor colocou o link da documentação justificando sua
 
 Escreva o comentário com cuidado para que ele não possa ser interpretado de várias formas diferentes, como no exemplo abaixo.
 
-[![Recomenda-o-4-red.png](https://i.postimg.cc/Mpr53Zb8/Recomenda-o-4-red.png)](https://postimg.cc/fVmYJNrH)
+![Recomenda-o-4-red.png](https://i.postimg.cc/Mpr53Zb8/Recomenda-o-4-red.png)
 
 
 ### 13 - Os comentários também podem ser positivos
 
 Faça comentários positivos sobre as alterações, esses comentários também agregam valor e motivam o autor.
 
+![Recomendacao13](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%206.png)
 
-### 14 - Questionar suas dúvidas
+
+### 14 - Questionar suas dúvidas sobre a alteração revisada
 
 Caso tenha dúvidas sobre alguma alteração, faça perguntas  e questione o autor. Muitas vezes uma simples pergunta pode mudar o pensamento do programador, evitando alguns erros no código.
 
+![Recomendacao14](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2012.png)
 
-### 15 - Deixar claro seus questionamentos
+### 15 - Deixar claro seus questionamentos sobre a revisão sugerida
 
 Caso tenha dúvida em uma sugestão, deixe claro sua dúvida, para que outros revisores possam opinar e iniciar um diálogo sobre o assunto.
+
+![Recomendacao15](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2015.png)
 
 
 ## Conclusão
@@ -117,8 +133,6 @@ Concluindo, revisões de código modernas fornecem benefícios além de encontra
 
 A revisão do código tem sido uma parte necessária do desenvolvimento de software, tornando-se cada vez mais importante o aprendizado sobre o assunto.
 
-
-## Referências
 
 
 
