@@ -13,7 +13,7 @@ A revisão de código possui dois propósitos. Melhorar o código, ou seja, enco
 
 ## Trabalhos Relacionados
 
-Em 2013, Alberto Bacchelli e  Christian Bird realizaram um estudo de Code Review através de uma pesquisa com desenvolvedores, testadores e gerentes da Microsoft [1]. O objetivo foi descobrir o que os desenvolvedores e gerentes esperam da revisão de código, como as revisões são realizadas na prática e quais os resultados reais e desafios.
+Em 2013, Alberto Bacchelli e  Christian Bird realizaram um estudo de Code Review através de uma pesquisa com desenvolvedores, testadores e gerentes da Microsoft [1](https://dl.acm.org/doi/10.5555/2486788.2486882). O objetivo foi descobrir o que os desenvolvedores e gerentes esperam da revisão de código, como as revisões são realizadas na prática e quais os resultados reais e desafios.
 
 Existem várias motivações para revisão de código. No geral, as entrevistas revelaram que encontrar defeitos, embora proeminentes, é apenas uma das muitas motivações que levam os desenvolvedores a executar o code review. Especialmente quando reforçado por uma forte cultura de equipe em torno das revisões, os desenvolvedores percebem as revisões de código como uma atividade que tem múltiplas influências benéficas não apenas no código, mas também para a equipe e todo o processo de desenvolvimento. 
 
@@ -24,23 +24,26 @@ Conforme gráfico acima, extraído do estudo de Alberto Bacchelli e  Christian B
 
 ## Recomendações
 
-Após um estudo de 624 comentários de 120 pull requests do GitHub, sendo 259 comentários de code review, foram criadas as recomendações abaixo para um Code Review com respeito e que agrega valor. As recomendações de 1 a 10 foram inspiradas no artigo How to Give Respectful and Constructive Code Review Feedback, de autoria de Michaela Greiler [2].
+Após um estudo de 624 comentários de 120 pull requests do GitHub, sendo 259 comentários de code review, foram criadas as recomendações abaixo para um Code Review com respeito e que agrega valor. As recomendações de 1 a 10 foram inspiradas no artigo How to Give Respectful and Constructive Code Review Feedback, de autoria de Michaela Greiler [2](https://www.michaelagreiler.com/respectful-constructive-code-review-feedback/).
+
 
 ### 1 - Fornecer Orientação
 
 Ao realizar uma revisão de código, é extremamente importante explicar e dar orientações de como o programador pode melhorar o código de acordo com as sugestões. Disponibilizar documentações ou até mesmo trechos de códigos para auxiliar o programador pode fazer a diferença em um comentário.
 
 
-### 2 - Agregar valor para o autor do código
-
-Pensar no autor do código e identificar como agregar valor na revisão baseado no autor.
-
-
-### 3 - Realizar perguntas e não fazer exigências
+### 2 - Realizar perguntas e não fazer exigências
 
 As perguntas abrem a mente do programador. Com perguntas, você está abrindo um diálogo.
 
 ![Recomendacao5](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%205.png)
+
+O exemplo acima mostra um comentário em que o autor não faz uma exigência, ele realiza uma pergunta para iniciar um diálogo e abrir a mente do programador.
+
+
+### 3 - Agregar valor para o autor do código
+
+Pensar no autor do código e identificar como agregar valor na revisão baseado no autor.
 
 
 ### 4 - Não assumir que o autor fez algo intencionalmente errado
@@ -49,30 +52,29 @@ Tenha cuidado para que o comentário não seja uma acusação ao autor do códig
 
 ![Recomendacao4](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%207.png)
 
+Realizar perguntas é uma boa forma de não aparentar que a pessoa fez algo intencionalmente errado. No exemplo acima o revisor questiona por qual motivo foi incluída essa parte no código.
+
 
 ### 5 - O feedback deve ser sobre o código
 
 O feedback deve ser sobre o código, e não refletir sobre o autor do código.
 
 
-### 6 - Não utilizar ironia ou sarcasmo
-
-Sarcasmo ou ironia são difíceis de identificar na linguagem escrita.
-
-
-### 7 - Não utilizar palavras ofensivas
-
-Evite palavras que possam ofender o autor.
-
-
-### 8 - O seu ponto de vista também pode estar errado
+### 6 - O seu ponto de vista também pode estar errado
 
 O feedback não é uma declaração universal da verdade, e sim uma observação da sua perspectiva.
 
 ![Recomendacao8](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2011.png)
 
+Neste exemplo o programador explicou seu ponto de vista, fazendo com que o revisor conseguisse compreender o que foi feito, mudando de ideia.
 
-### 9 - Usar emoji
+
+### 7 - Não utilizar ironia ou sarcasmo
+
+Sarcasmo ou ironia são difíceis de identificar na linguagem escrita.
+
+
+### 8 - Usar emoji
 
 Os emojis auxiliam a entender o sentido da frase que foi colocada.
 
@@ -81,12 +83,19 @@ Os emojis auxiliam a entender o sentido da frase que foi colocada.
 ![Recomendacao9b](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2013b.png)
 
 
+### 9 - Não utilizar palavras ofensivas
+
+Evite palavras que possam ofender o autor.
+
+
 ### 10 - Explicar seu ponto de vista
 
 Explicar a sua sugestão e o porque você pensa dessa forma.
 
 ![Recomendacao10a](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2014a.png)
 ![Recomendacao10b](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2014b.png)
+
+Neste exemplo o revisor explica seu ponto de vista com evidências. Logo em seguida o autor também explica seu pensamento demonstrando partes do código, facilitando o entendimento.
 
 
 ### 11 - Mostrar Evidências
@@ -111,12 +120,15 @@ Faça comentários positivos sobre as alterações, esses comentários também a
 
 ![Recomendacao13](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%206.png)
 
+No exemplo acima o revisor envia um feedback positivo sobre a alteração e comenta sobre as instruções de testes criadas.
+
 
 ### 14 - Questionar suas dúvidas sobre a alteração revisada
 
 Caso tenha dúvidas sobre alguma alteração, faça perguntas  e questione o autor. Muitas vezes uma simples pergunta pode mudar o pensamento do programador, evitando alguns erros no código.
 
 ![Recomendacao14](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2012.png)
+
 
 ### 15 - Deixar claro seus questionamentos sobre a revisão sugerida
 
