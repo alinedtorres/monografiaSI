@@ -38,7 +38,7 @@ As perguntas abrem a mente do programador. Com perguntas, você está abrindo um
 
 ![Recomendacao14](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2012.png)
 
-O exemplo acima mostra um comentário em que o autor não faz uma exigência, ele realiza uma pergunta para iniciar um diálogo e abrir a mente do programador.
+O exemplo acima mostra um comentário em que o revisor não faz uma exigência, ele realiza uma pergunta para iniciar um diálogo e abrir a mente do programador.
 
 
 ### 3 - Agregar valor para o autor do código
