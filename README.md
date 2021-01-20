@@ -36,7 +36,7 @@ Ao realizar uma revisão de código, é extremamente importante explicar e dar o
 
 As perguntas abrem a mente do programador. Com perguntas, você está abrindo um diálogo.
 
-![Recomendacao5](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%205.png)
+![Recomendacao14](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2012.png)
 
 O exemplo acima mostra um comentário em que o autor não faz uma exigência, ele realiza uma pergunta para iniciar um diálogo e abrir a mente do programador.
 
@@ -107,9 +107,9 @@ Se possível, mostrar evidências de que sua sugestão está correta, exibindo d
 No comentário acima o revisor colocou o link da documentação justificando sua sugestão.
 
 
-### 12 - Ser o mais claro possível
+### 12 - Volte a ler os comentários
 
-Escreva o comentário com cuidado para que ele não possa ser interpretado de várias formas diferentes, como no exemplo abaixo.
+Se necessário, releia os argumentos do autor, você pode ter uma nova visão sobre seu ponto de vista, como no exemplo abaixo.
 
 ![Recomenda-o-4-red.png](https://i.postimg.cc/Mpr53Zb8/Recomenda-o-4-red.png)
 
@@ -127,7 +127,7 @@ No exemplo acima o revisor envia um feedback positivo sobre a alteração e come
 
 Caso tenha dúvidas sobre alguma alteração, faça perguntas  e questione o autor. Muitas vezes uma simples pergunta pode mudar o pensamento do programador, evitando alguns erros no código.
 
-![Recomendacao14](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2012.png)
+
 
 
 ### 15 - Deixar claro seus questionamentos sobre a revisão sugerida
