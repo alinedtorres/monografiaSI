@@ -125,6 +125,8 @@ No exemplo acima o revisor envia um feedback positivo sobre a alteração e come
 
 Caso tenha dúvidas sobre alguma alteração, faça perguntas  e questione o autor. Muitas vezes uma simples pergunta pode mudar o pensamento do programador, evitando alguns erros no código.
 
+![Recomendacao13](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2014.png)
+
 
 ### 15 - Deixar claro seus questionamentos sobre a revisão sugerida
 
