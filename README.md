@@ -78,9 +78,7 @@ Sarcasmo ou ironia são difíceis de identificar na linguagem escrita.
 
 Os emojis auxiliam a entender o sentido da frase que foi colocada.
 
-![Recomendacao9a](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2013a.png)
-
-![Recomendacao9b](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%2013b.png)
+![Recomendacao9a](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%20emoticon1.png)
 
 
 ### 9 - Não utilizar palavras ofensivas
@@ -126,8 +124,6 @@ No exemplo acima o revisor envia um feedback positivo sobre a alteração e come
 ### 14 - Questionar suas dúvidas sobre a alteração revisada
 
 Caso tenha dúvidas sobre alguma alteração, faça perguntas  e questione o autor. Muitas vezes uma simples pergunta pode mudar o pensamento do programador, evitando alguns erros no código.
-
-
 
 
 ### 15 - Deixar claro seus questionamentos sobre a revisão sugerida
