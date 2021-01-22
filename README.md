@@ -78,7 +78,7 @@ Sarcasmo ou ironia são difíceis de identificar na linguagem escrita.
 
 Os emojis auxiliam a entender o sentido da frase que foi colocada.
 
-![Recomendacao9a](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%20emoticon1.png)
+![Recomendacao9a](https://github.com/alinedtorres/monografiaSI/blob/main/Recomenda%C3%A7%C3%A3o%20emoticon2.png)
 
 
 ### 9 - Não utilizar palavras ofensivas
